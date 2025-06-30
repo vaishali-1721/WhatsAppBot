@@ -23,7 +23,7 @@ public class FirebaseConfig {
 
             FirebaseOptions options = FirebaseOptions.builder()
                     .setCredentials(GoogleCredentials.fromStream(serviceAccount))
-                    .setDatabaseUrl("\"https://whatsapp-bot-51ccc.firebaseio.com\"") 
+                    .setDatabaseUrl("\"https://projectID.firebaseio.com\"") 
                     .build();
 
             if (FirebaseApp.getApps().isEmpty()) {
